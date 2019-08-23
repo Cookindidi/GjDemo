@@ -11,5 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.i("ggg","公共修改");
+
+        Log.i("ggg","在分支中，增加公共修改");
     }
 }
