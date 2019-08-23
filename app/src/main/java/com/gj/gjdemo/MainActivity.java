@@ -2,6 +2,7 @@ package com.gj.gjdemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -9,5 +10,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.i("ggg","公共修改");
+
+        Log.i("ggg","在分支中，增加公共修改");
+        Log.i("ggg","在master中，增加公共修改，需要更新到所有分支");
+
     }
 }
