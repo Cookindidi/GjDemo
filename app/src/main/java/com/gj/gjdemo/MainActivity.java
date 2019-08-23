@@ -13,5 +13,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("ggg","公共修改");
 
         Log.i("ggg","在分支中，增加公共修改");
+        Log.i("ggg","在master中，增加公共修改，需要更新到所有分支");
+
     }
 }
